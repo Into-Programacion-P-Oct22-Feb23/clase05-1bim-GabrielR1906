@@ -7,6 +7,7 @@ package paquete1;
 
 import java.util.Locale;
 import java.util.Scanner;
+//import java.util.Scanner;
 
 /**
  *
@@ -31,6 +32,8 @@ public class Ejemplo2 {
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
+        /*Es para cuando se usa una variable de tipo cadena, luego una de tipo 
+        numérico y se quiere regresar a la cadena*/
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();

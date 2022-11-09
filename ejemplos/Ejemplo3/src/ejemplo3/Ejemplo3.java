@@ -20,7 +20,7 @@ public class Ejemplo3 {
 
     public static void main(String[] args) {
         // Condicionales aninados
-        double promedio = 10;
+        double promedio = 2;
 
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
